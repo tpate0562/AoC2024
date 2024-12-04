@@ -22,7 +22,6 @@ for (i, rowData) in rowsData.enumerated() {
         }
     }
 }
-print(theArray)
 var count = 0
 func checkVertical() -> Void {
     for i in 0...139 {
@@ -124,7 +123,7 @@ checkVertical()
 checkHorizontal()
 checkDiagonalLeft()
 checkDiagonalRight()
-print(count)
+print("Part 1: ", count)
 //Part 2
 var count2 = 0
 for i in 1...138{
@@ -138,4 +137,4 @@ for i in 1...138{
         }
     }
 }
-print(count2)
+print("Part 2:", count2)
