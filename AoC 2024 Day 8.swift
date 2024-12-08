@@ -5,7 +5,6 @@
 //  Created by Tejas Patel on 12/7/24.
 //
 
-
 import Foundation
 let numsize = 50
 let inputFilePath = "/Users/tejaspatel/Desktop/Programming Projects/AoC 2024 Day 8/AoC 2024 Day 8/input.txt"
@@ -64,11 +63,8 @@ for char in charTypes {
                 cumulativeIndicesArray.append([i, j])
 }}}
     print(indicesArray)
-    count += indicesArray.count
     solveSpaces()
 }
 let countOfOnes = spotsTaken.flatMap {$0}.filter {$0 == "1"}.count
 print(countOfOnes)
-print(count)
-print(duplicates)
-print(countOfOnes - count + duplicates)
+
